@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+reset_commits.sh
+make_commits.sh
+rebuild.sh
