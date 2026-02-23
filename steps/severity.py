@@ -1,3 +1,4 @@
+# Severity scoring module
 import math
 
 # Weights for the final severity score
