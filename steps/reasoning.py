@@ -5,6 +5,12 @@ GEMINI_MODEL = "gemini-2.5-flash"
 
 # Rule-based fallback: predefined causes, risks, and actions per defect type
 KNOWN_DEFECTS = {
+    "Dented":    {"causes": ["Physical impact", "Improper handling"],
+                "risks":   ["Structural deformation"],
+                "actions": ["Assess dent depth", "Replace component if severe"]},
+    "Corrosion": {"causes": ["Chemical exposure", "Humidity"],
+                "risks":   ["Weakens material integrity"],
+                "actions": ["Clean surface", "Apply protective coating"]},
     "Crack": {
         "causes": ["Material fatigue or stress", "Impact damage"],
         "risks": ["Crack may spread and cause failure"],
