@@ -1,0 +1,9 @@
+services:
+  inspector:
+    build: .
+    container_name: defect-inspector
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    restart: unless-stopped
