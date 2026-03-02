@@ -10,7 +10,7 @@ from pipeline import detect_defects, assess_severity, reason_root_causes, draw_a
 load_dotenv()
 
 # Page Config 
-st.set_page_config(page_title="Defect Inspection System", layout="wide")
+st.set_page_config(page_title="Defect Inspector", layout="wide")
 
 # global styles
 st.markdown("""
