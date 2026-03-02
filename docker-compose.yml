@@ -1,5 +1,6 @@
 services:
   inspector:
+    image: thamizhamudhan06/defect-inspector:latest
     build: .
     container_name: defect-inspector
     ports:
