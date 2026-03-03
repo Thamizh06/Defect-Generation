@@ -183,8 +183,4 @@ score = (size_score x 0.40) + (location_score x 0.35) + (count_score x 0.25)
 
 Score ranges: Low (0-39), Medium (40-69), High (70-100)
 
----
 
-## License
-
-MIT
