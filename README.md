@@ -6,9 +6,8 @@ An AI-powered web application for automated surface defect detection, severity s
 
 ## System Architecture
 <p align="center">
-  <img src="Architecture.jpg" width="900"/>
+  <img src="Architecture.jpeg" width="900"/>
 </p>
----
 
 
 ### Pipeline Steps
