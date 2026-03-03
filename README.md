@@ -4,37 +4,12 @@ An AI-powered web application for automated surface defect detection, severity s
 
 ---
 
-## Architecture
+## System Architecture
+<p align="center">
+  <img src="Architecture.jpg" width="900"/>
+</p>
+---
 
-```
-User (Browser)
-      |
-      v
-+---------------------------+
-|      Streamlit App        |   app.py
-|     (Web Interface)       |
-+---------------------------+
-             |
-             | image + run trigger
-             v
-+---------------------------+
-|         Pipeline          |   pipeline.py
-+---------------------------+
-    |        |        |        |
-    v        v        v        v
-+--------+ +--------+ +----------+ +----------+
-|Detect  | |Severity| |Reasoning | |Annotate  |
-|        | |Scoring | |          | |          |
-|Roboflow| |        | |Gemini AI | |OpenCV    |
-|  API   | |        | |/ Rules   | |          |
-+--------+ +--------+ +----------+ +----------+
-                                         |
-                                         v
-                              +--------------------+
-                              |   Report Generator |
-                              |   (TXT  +  PDF)    |
-                              +--------------------+
-```
 
 ### Pipeline Steps
 
