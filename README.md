@@ -152,7 +152,7 @@ docker pull thamizhamudhan06/defect-inspector:latest
 docker run -p 8501:8501 --env-file .env thamizhamudhan06/defect-inspector:latest
 ```
 
-Open `http://localhost:8501` in your browser.
+Open `http://localhost:8501` in your browser
 
 ---
 
